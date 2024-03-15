@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 25px 0;
+    @media only screen and (min-width: 724px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &_contact {
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 20px;
+        @media only screen and (min-width: 1000px) {
+            font-size: 25px;
+            transition: all 350ms ease-in-out;
+        }
+
+        &:hover {
+            @media only screen and (min-width: 1000px) {
+                font-weight: bold;
+            }
+        }
+    }
+
+    &_container {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        @media only screen and (min-width: 724px) {
+            gap: 25px;
+        }
+
+        &_logo1,
+        &_logo2 {
+            width: 25px;
+            height: 25px;
+            @media only screen and (min-width: 724px) {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+
+    &_content {
+        font-size: 12px;
+    }
+}
