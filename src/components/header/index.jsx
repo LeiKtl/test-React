@@ -8,7 +8,7 @@ function Header () {
     function menuBurger () {
         setIsOpen(!isOpen)
         const root = document.getElementById("root");
-        if (isOpen) {
+        if (!isOpen) {
             root.style.overflow = "hidden";
             root.style.height = "100vh";
         } else {
