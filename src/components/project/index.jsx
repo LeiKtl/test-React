@@ -9,7 +9,7 @@ function Project (props) {
 
     function handleModal () {
         setIsClosed(!isClosed)
-    }
+    };
 
     return (
     <section className={isClosed ? 'container container-borderBottom' : 'container'} >
@@ -43,14 +43,19 @@ function Project (props) {
                     <p className='container_modalProject_description-text'><span className='container_modalProject_description-text-highlight'>{props.formation}</span><br/>{props.content}</p>
                 </div>
                 <div className='container_modalProject_links'>
-                    <Link to={props.codeLink} className='container_modalProject_link'>Voir code</Link>
-                    <Link to={props.siteLink} className='container_modalProject_link'>Voir site</Link>
+                    {
+                        props.codeLink ? <Link to={props.codeLink} className='container_modalProject_link'>Voir code</Link> 
+                        : <></>
+                    }
+                    {
+                        props.siteLink ? <Link to={props.siteLink} className='container_modalProject_link'>Voir site</Link>
+                        : <></>
+                    }        
                 </div>
             </div>
         </div>
         }
-    </ section>
-        
+    </ section> 
     )
 };
 

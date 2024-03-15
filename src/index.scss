@@ -9,29 +9,29 @@ body {
   color: #000;
   @media only screen and (min-width: 600px) {
     margin: 0 50px 0 50px;
-  }
+  };
   @media only screen and (min-width: 724px) {
     margin: 0 80px 0 80px;
-  }
-}
+  };
+};
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+};
 
 #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
+};
 
 header,
 footer {
   flex-shrink: 0;
-}
+};
 
 a {
   color: #000;
   text-decoration: none;
-}
+};

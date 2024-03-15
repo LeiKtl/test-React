@@ -10,7 +10,7 @@
 
     &_nav {
         display: block;
-    }
+    };
 
     &_logo {
         font-weight: 300;
@@ -36,7 +36,7 @@
             @media only screen and (min-width: 600px) {
                 margin-bottom: 12px;
             };
-        }
+        };
 
         
         &-line1,
@@ -48,7 +48,7 @@
             @media only screen and (min-width: 724px) {
                 animation: lineSlideBack 500ms ease-in-out forwards;
             };
-        }
+        };
         
         &-line2 {
             width: 30px;
@@ -58,16 +58,15 @@
             @media only screen and (min-width: 724px) {
                 width: 50px;
             };  
-        }
+        };
 
         &-line3 {
             position: relative;
             left: 15px;
             @media only screen and (min-width: 600px) {
                 left: 20px;
-            };
-            
-        }
+            };  
+        };
     };
     
     &:hover .header_icone-line1,
@@ -75,12 +74,13 @@
         @media only screen and (min-width: 1000px) {
             animation: lineSlide 500ms ease-in-out forwards;
         };
-    }
+    };
+
     &:hover .header_icone-line3 {
         @media only screen and (min-width: 1000px) {
             left: 0;
         };
-    }
+    };
 
     @keyframes lineSlide {
         0% {
@@ -103,7 +103,7 @@
             left: 0;
             width: 50px;
         }
-    }
+    };
 
     @keyframes lineSlideBack {
         0% {
@@ -126,7 +126,7 @@
             left: 25px;
             width: 25px;
         }
-    }
+    };
 
     &_icone2 {
         position: relative;
@@ -160,28 +160,25 @@
             height: 32px;
             width: 1px;
             background-color: #333;
-            
             @media only screen and (min-width: 600px) {
                 height: 45px;
             }
-
             @media only screen and (min-width: 724px) {
                 height: 60px;
             }
-
             @media only screen and (min-width: 724px) {
                 animation: fullCloseIcone 350ms ease-in-out forwards;
             }
-        }
+        };
           
         &-close:before {
             transform: rotate(45deg);
-        }
+        };
+
         &-close:after {
             transform: rotate(-45deg);
-        }
-          
-    }
+        };
+    };
 
     &_navbar {
         &--burger {
@@ -207,12 +204,12 @@
 
                 &:hover {
                     font-weight: bold;
-                }
-            }
+                };
+            };
         };
     };
 
     .hide {
         display: none;
     };
-}
+};

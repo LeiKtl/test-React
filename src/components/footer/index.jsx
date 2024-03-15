@@ -3,7 +3,7 @@ import githubLogo from '../../assets/logo_github.png';
 import linkedinLogo from '../../assets/logo_linkedin.png'
 import { Link } from 'react-router-dom';
 
-function Header () {
+function Footer () {
     return (
         <footer className='footer'>
             <Link to="/contact" className='footer_contact'>Let's<br/>collaborate</Link>
@@ -18,4 +18,4 @@ function Header () {
     )
 };
 
-export default Header;
+export default Footer

@@ -9,6 +9,6 @@ function Error () {
             <Link  to="/" className='container_error_button'>home page</Link>
         </div>
     )
-}
+};
 
-export default Error;
+export default Error

@@ -12,19 +12,19 @@
         font-size: 150px;
         @media only screen and (min-width: 724px) {
             font-size: 210px;
-        }
+        };
         @media only screen and (min-width: 1000px) {
             font-size: 260px;
-        }
-    }
+        };
+    };
 
     &_content {
         font-family: $secondary-font;
         font-size: 15px;
         @media only screen and (min-width: 1000px) {
             font-size: 18px;
-        }
-    }
+        };
+    };
 
     &_button {
         text-decoration: none;
@@ -39,14 +39,14 @@
         font-weight: 500;
         @media only screen and (min-width: 1000px) {
             font-size: 16px;
-        }
+        };
 
         &:hover {
             @media only screen and (min-width: 1000px) {
                 font-weight: bold;
                 border-width: 2px;
                 margin-top: 13px;
-            }
-        }
-    }
-}
+            };
+        };
+    };
+};

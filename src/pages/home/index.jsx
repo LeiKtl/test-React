@@ -14,7 +14,6 @@ function Home () {
                 <div className='home_arrowCircle-line'></div>
                 <div className='home_arrowCircle-arrow2'></div>
             </div>
-            
             <h2 className='home_works' id='work'>My work</h2>
             <p className='home_works--text'>( Click on a project to see more )</p>
             <section className='home_works--projects'>
@@ -42,4 +41,4 @@ function Home () {
     )
 };
 
-export default Home;
+export default Home

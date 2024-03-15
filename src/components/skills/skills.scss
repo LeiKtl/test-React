@@ -13,18 +13,18 @@
         @media only screen and (min-width: 600px) {
             height: 75px;
             width: 75px;
-        }  
+        };
         @media only screen and (min-width: 724px) {
             height: 110px;
             width: 110px;
-        }      
-    }
+        };    
+    };
 
     &_name {
         text-transform: uppercase;
         font-weight: 500;
         @media only screen and (min-width: 600px) {
             font-size: 18px;
-        }
-    }
-}
+        };
+    };
+};

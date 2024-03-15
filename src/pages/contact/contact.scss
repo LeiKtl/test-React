@@ -19,7 +19,7 @@
         @media only screen and (min-width: 1000px) {
             font-size: 110px;
         };
-    }
+    };
 
     &_content {
         font-family: $secondary-font;
@@ -41,6 +41,6 @@
         };
         &:hover {
             font-weight: bold;
-        }
-    }
-}
+        };
+    };
+};
