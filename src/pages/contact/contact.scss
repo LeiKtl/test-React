@@ -1,0 +1,46 @@
+@import '../../variables.scss';
+
+.container_contact {
+    flex-grow: 1;
+    &_title {
+        font-size: 35px;
+        font-weight: bolder;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        @media only screen and (min-width: 400px) {
+            font-size: 45px;
+        };
+        @media only screen and (min-width: 480px) {
+            font-size: 65px;
+        };
+        @media only screen and (min-width: 785px) {
+            font-size: 90px;
+        };
+        @media only screen and (min-width: 1000px) {
+            font-size: 110px;
+        };
+    }
+
+    &_content {
+        font-family: $secondary-font;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        transition: font-weight 350ms ease-in-out;
+        @media only screen and (min-width: 400px) {
+            font-size: 25px;
+        };
+        @media only screen and (min-width: 480px) {
+            font-size: 30px;
+        };
+        @media only screen and (min-width: 785px) {
+            font-size: 40px;
+        };
+        @media only screen and (min-width: 1000px) {
+            font-size: 50px;
+        };
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
