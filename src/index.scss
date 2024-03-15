@@ -1,0 +1,37 @@
+@import './variables.scss';
+
+body {
+  font-family: $primary-font, sans-serif;
+  margin: 0 24px 0 24px;
+  background: radial-gradient(111.69% 97.4% at 19.53% 7.59%, rgba(255, 0, 153, 0.20) 0%, rgba(160, 249, 4, 0.20) 51.04%, rgba(255, 255, 255, 0.20) 99.48%), #FFF;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #000;
+  @media only screen and (min-width: 600px) {
+    margin: 0 50px 0 50px;
+  }
+  @media only screen and (min-width: 724px) {
+    margin: 0 80px 0 80px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  flex-shrink: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
