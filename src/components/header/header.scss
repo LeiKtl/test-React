@@ -1,0 +1,218 @@
+@import '../../variables.scss';
+
+.header {
+    margin-top: 20px;
+    font-family: $primary-font;
+    font-size: 23px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+
+    &_nav {
+        display: block;
+    }
+
+    &_logo {
+        font-weight: 300;
+        @media only screen and (min-width: 600px) {
+            font-size: 40px;
+            font-weight: 200;
+        };
+    };
+
+    &_icone {
+        margin-top: 5px;
+        cursor: pointer;
+        @media only screen and (min-width: 600px) {
+            font-size: 40px;
+            margin-top: 10px;
+        };
+
+        &-line1,
+        &-line2,
+        &-line3 {
+            border-bottom: solid 1px #000;
+            margin-bottom: 8px;
+            @media only screen and (min-width: 600px) {
+                margin-bottom: 12px;
+            };
+        }
+
+        
+        &-line1,
+        &-line3 {
+            width: 15px;
+            @media only screen and (min-width: 600px) {
+                width: 20px;
+            };
+            @media only screen and (min-width: 724px) {
+                animation: lineSlideBack 500ms ease-in-out forwards;
+            };
+        }
+        
+        &-line2 {
+            width: 30px;
+            @media only screen and (min-width: 600px) {
+                width: 40px;
+            };
+            @media only screen and (min-width: 724px) {
+                width: 50px;
+            };  
+        }
+
+        &-line3 {
+            position: relative;
+            left: 15px;
+            @media only screen and (min-width: 600px) {
+                left: 20px;
+            };
+            
+        }
+    };
+    
+    &:hover .header_icone-line1,
+    &:hover .header_icone-line3 { 
+        @media only screen and (min-width: 1000px) {
+            animation: lineSlide 500ms ease-in-out forwards;
+        };
+    }
+    &:hover .header_icone-line3 {
+        @media only screen and (min-width: 1000px) {
+            left: 0;
+        };
+    }
+
+    @keyframes lineSlide {
+        0% {
+            left: 25px;
+            width: 25px;
+        }
+        20% {
+            left: 18px;
+            width: 30px;
+        }
+        40% {
+            left: 12px;
+            width: 35px;
+        }
+        60% {
+            left: 6px;
+            width: 42px;
+        }
+        100% {
+            left: 0;
+            width: 50px;
+        }
+    }
+
+    @keyframes lineSlideBack {
+        0% {
+            left: 0;
+            width: 50px;
+        }
+        20% {
+            left: 6px;
+            width: 42px;
+        }
+        40% {
+            left: 12px;
+            width: 35px;
+        }
+        60% {
+            left: 18px;
+            width: 30px;
+        }
+        100% {
+            left: 25px;
+            width: 25px;
+        }
+    }
+
+    &_icone2 {
+        position: relative;
+        height: 30px;
+        width: 10px;
+        cursor: pointer;
+        padding-left: 10px;
+        left: 90%;
+        @media only screen and (min-width: 400px) {
+            left : 93%
+        };
+        @media only screen and (min-width: 530px) {
+            left : 95%
+        };
+        @media only screen and (min-width: 600px) {
+            height: 40px;
+            width: 20px;
+            padding-left: 15px;
+            left: 93%;
+        };
+        @media only screen and (min-width: 724px) {
+            left : 93%;
+        };
+        @media only screen and (min-width: 1000px) {
+            left : 96%;
+        };
+
+        &-close:before, &-close:after {
+            position: absolute;
+            content: ' ';
+            height: 32px;
+            width: 1px;
+            background-color: #333;
+            
+            @media only screen and (min-width: 600px) {
+                height: 45px;
+            }
+
+            @media only screen and (min-width: 724px) {
+                height: 60px;
+            }
+
+            @media only screen and (min-width: 724px) {
+                animation: fullCloseIcone 350ms ease-in-out forwards;
+            }
+        }
+          
+        &-close:before {
+            transform: rotate(45deg);
+        }
+        &-close:after {
+            transform: rotate(-45deg);
+        }
+          
+    }
+
+    &_navbar {
+        &--burger {
+            margin: 0;
+            list-style-type: none;
+            padding: 20px;
+            height: 100vh;
+            font-size: 50px;
+            font-weight: 300;
+            margin-top: 50px;
+            @media only screen and (min-width: 600px) {
+                font-size: 100px;
+            };
+
+            &--work,
+            &--skills ,
+            &--contact {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 50px;
+                transition: all 350ms ease-in-out;
+
+                &:hover {
+                    font-weight: bold;
+                }
+            }
+        };
+    };
+
+    .hide {
+        display: none;
+    };
+}
