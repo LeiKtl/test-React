@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e57f0bd.css",
+    "main.js": "/static/js/main.7221d433.js",
+    "static/js/418.e919b6ad.chunk.js": "/static/js/418.e919b6ad.chunk.js",
+    "static/js/694.06a32d6c.chunk.js": "/static/js/694.06a32d6c.chunk.js",
+    "static/js/402.870c9293.chunk.js": "/static/js/402.870c9293.chunk.js",
+    "static/js/695.f307ec0a.chunk.js": "/static/js/695.f307ec0a.chunk.js",
+    "static/js/542.45fae0f9.chunk.js": "/static/js/542.45fae0f9.chunk.js",
+    "static/js/562.bb0b845c.chunk.js": "/static/js/562.bb0b845c.chunk.js",
+    "static/js/601.7b18f089.chunk.js": "/static/js/601.7b18f089.chunk.js",
+    "static/js/159.ad731582.chunk.js": "/static/js/159.ad731582.chunk.js",
+    "static/js/894.48da9f3c.chunk.js": "/static/js/894.48da9f3c.chunk.js",
+    "static/js/477.08adcebd.chunk.js": "/static/js/477.08adcebd.chunk.js",
+    "static/js/738.d436b428.chunk.js": "/static/js/738.d436b428.chunk.js",
+    "static/js/522.62920011.chunk.js": "/static/js/522.62920011.chunk.js",
+    "static/media/ohmyfood.jpg": "/static/media/ohmyfood.09d204ed638b7fa6d5b2.jpg",
+    "static/media/sophie-bluel.png": "/static/media/sophie-bluel.115d313bea380c74a3b4.png",
+    "static/media/print_it.jpg": "/static/media/print_it.02ddddfa3cf6837896f8.jpg",
+    "static/media/kasa.jpg": "/static/media/kasa.db2e474b3fc04ae2dc6f.jpg",
+    "static/media/logo_css.png": "/static/media/logo_css.d53264d3a76a6d6c15f1.png",
+    "static/media/logo_javascript.png": "/static/media/logo_javascript.0552d80df0beddc3183a.png",
+    "static/media/logo_html.png": "/static/media/logo_html.d70e4c2c1e87b881845d.png",
+    "static/media/logo_react.png": "/static/media/logo_react.4a585d0c9c11ad9c43a8.png",
+    "static/media/booki.jpg": "/static/media/booki.ab72e9af18541a68501a.jpg",
+    "static/media/nina.webp": "/static/media/nina.770f18a6bf6925d3c312.webp",
+    "static/media/logo_linkedin.png": "/static/media/logo_linkedin.af3f0c639abd231a3d18.png",
+    "static/media/logo_figma.svg": "/static/media/logo_figma.6358d47294dfe2c1cd31.svg",
+    "static/media/logo_redux.svg": "/static/media/logo_redux.85c924f593bf9dab83ef.svg",
+    "index.html": "/index.html",
+    "main.2e57f0bd.css.map": "/static/css/main.2e57f0bd.css.map",
+    "main.7221d433.js.map": "/static/js/main.7221d433.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e57f0bd.css",
+    "static/js/main.7221d433.js"
+  ]
+}

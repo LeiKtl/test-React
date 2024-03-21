@@ -1,0 +1,13 @@
+{
+  "HELLO": "bonjour!",
+  "PROJECTS": {
+    "PORTFOLIO": {
+      "PARAGRAPH": "texte"
+    }
+  },
+  "projects": {
+    "portfolio": {
+      "title": "pas portfolio"
+    }
+  }
+}

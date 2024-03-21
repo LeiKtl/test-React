@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './header.scss';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Header () {
     const [isOpen, setIsOpen] = useState(false);
@@ -39,15 +40,9 @@ function Header () {
                     <div className=' header_icone2-close'></div>
                 </div>
                 <ul className='header_navbar--burger'>
-                    <a href="#work">
-                        <li className='header_navbar--burger--work' onClick={handleClick}>My work</li>
-                    </a>
-                    <a href="#skills">
-                        <li className='header_navbar--burger--skills'>Skills</li>
-                    </a>
-                    <Link to="/contact" onClick={handleClick}>
-                        <li className='header_navbar--burger--contact'>Contact<span className='line'></span></li>
-                    </Link>
+                    <li className='header_navbar--burger--work'><Link to="/#work" onClick={handleClick}>My work</Link></li>
+                    <li className='header_navbar--burger--skills'><Link to="/#skills" onClick={handleClick}>Skills</Link></li>
+                    <li className='header_navbar--burger--contact'><Link to="/contact" onClick={handleClick}>Contact</Link></li>
                 </ul>
             </nav>
         </header>
