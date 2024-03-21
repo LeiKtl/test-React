@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[522],{522:(e,p,o)=>{e.exports=o.p+"static/media/sophie-bluel.115d313bea380c74a3b4.png"}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[894],{894:(e,p,o)=>{e.exports=o.p+"static/media/nina.770f18a6bf6925d3c312.webp"}}]);
